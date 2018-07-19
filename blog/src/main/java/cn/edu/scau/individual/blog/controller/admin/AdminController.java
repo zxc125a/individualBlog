@@ -42,7 +42,7 @@ public class AdminController {
     @Autowired
     private LinkService linkService;
 
-    @ModelAttribute
+    @ModelAttribute   
     public void init(Model model) throws Exception {
 
     }
